@@ -19,7 +19,7 @@ class App extends Component {
             <NavLink to="/login" className="navlink">Login</NavLink>
             &nbsp;|&nbsp;
             <NavLink to="/users" className="navlink">Users</NavLink>
-            
+            &nbsp;|&nbsp;
             <button onClick={this.logout}>Logout</button>
           </nav>
         </header>
