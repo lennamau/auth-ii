@@ -11,11 +11,13 @@ class Register extends React.Component {
   render() {
     return (
       <>
-        <h2>Login</h2>
+        <h2>Welcome</h2>
+        <h3>Please Register</h3>
         <form onSubmit={this.handleSubmit}>
           <div>
             <label htmlFor="username" />
             <input
+              placeholder="Username"
               name="username"
               id="username"
               value={this.state.username}
@@ -27,6 +29,7 @@ class Register extends React.Component {
           <div>
             <label htmlFor="password" />
             <input
+              placeholder="Password"
               name="password"
               id="password"
               value={this.state.password}
@@ -38,6 +41,7 @@ class Register extends React.Component {
           <div>
             <label htmlFor="department" />
             <input
+            placeholder="Enter department"
               name="department"
               id="department"
               value={this.state.department}
